@@ -1,0 +1,16 @@
+# Node.js 의존성 폴더
+node_modules
+
+# npm 디버그 로그 파일
+npm-debug.log
+
+# 운영체제 생성 파일
+.DS_Store
+Thumbs.db
+
+# IDE 설정 폴더
+.idea
+.vscode
+
+# 환경 변수 파일 (데이터베이스 암호 등 민감 정보)
+.env

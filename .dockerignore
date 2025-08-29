@@ -1,0 +1,15 @@
+# Docker 이미지에 포함시키지 않을 파일 및 폴더 목록
+
+# Node.js 의존성 폴더
+node_modules
+
+# npm 디버그 로그 파일
+npm-debug.log
+
+# 운영체제 생성 파일
+.DS_Store
+Thumbs.db
+
+# IDE 설정 폴더
+.idea
+.vscode

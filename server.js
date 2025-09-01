@@ -7,7 +7,11 @@ const app = express();
 const port = 3000;
 
 // --- 3. 미들웨어 설정 ---
-app.use(cors()); // 모든 도메인에서의 요청을 허용 (개발용)
+const corsOptions = {
+    origin: 'https://dlyyxc8xzu8oq.cloudfront.net', // 여러분의 CloudFront 도메인 주소
+    optionsSuccessStatus: 200
+};
+app.use(cors(corsOptions));
 app.use(express.json()); // 요청 본문(body)을 JSON으로 파싱
 
 // --- 4. 데이터베이스 연결 설정 ---

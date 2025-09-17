@@ -62,6 +62,6 @@ jobs:
               -e RDS_USERNAME=${{ secrets.RDS_USERNAME }} \
               -e RDS_PASSWORD=${{ secrets.RDS_PASSWORD }} \
               -e RDS_HOSTNAME=${{ secrets.RDS_HOSTNAME }} \
-              -e RDS_DB_NAME=postgres \
-              -e RDS_PORT=5432 \
+              -e RDS_DB_NAME=${{ secrets.RDS_DB_NAME }} \
+              -e RDS_PORT=${{ secrets.RDS_PORT }} \
               ${{ secrets.DOCKERHUB_USERNAME }}/todo-list-server:latest

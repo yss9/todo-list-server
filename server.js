@@ -136,3 +136,5 @@ app.listen(port, () => {
     console.log(`서버가 http://localhost:${port} 에서 실행 중입니다.`);
     console.log('데이터베이스 연결을 확인해주세요.');
 });
+
+// 최종 배포를 위한 마지막 수정

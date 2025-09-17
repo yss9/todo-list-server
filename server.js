@@ -70,7 +70,7 @@ app.post('/api/todos', async (req, res) => {
         res.status(201).json(result.rows[0]); // 생성된 항목 반환
     } catch (err) {
         console.error('Todo 추가 오류:', err);
-        res.status(500).json({ error: '데이터베이스에 추가 중 오류가 발생했습니다.' });
+        res.status(500).json({ error: '데이터베이스에 추가 중 오류가 발생했습니다.!' });
     }
 });
 

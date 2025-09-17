@@ -22,6 +22,9 @@ const pool = new Pool({
     database: process.env.RDS_DB_NAME || 'postgres',
     password: process.env.RDS_PASSWORD || 'password',
     port: process.env.RDS_PORT || 5432,
+    ssl: {
+        rejectUnauthorized: false
+    }
 });
 
 /*

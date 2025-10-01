@@ -1,3 +1,5 @@
+
+```mermaid
 graph TD
     subgraph "User Interaction"
         U[👤<br>User]
@@ -62,3 +64,4 @@ graph TD
     class S3,RDS,EC2,Docker fill:#F8CECC,stroke:#B85450;
     class GH,GHA fill:#E1D5E7,stroke:#9673A6;
     class ACF,AALB fill:#FFF2CC,stroke:#D6B656;
+```

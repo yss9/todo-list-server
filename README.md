@@ -7,7 +7,7 @@
 
 | 기간 | 팀 구성 | 내 역할 |
 | --- | --- | --- |
-| 2025.09 | 1인 구축 | 인프라 설계 및 배포 자동화 구축 |
+| 2025.08 ~ 2025.09 | 1인 구축 | 인프라 설계 및 배포 자동화 구축 |
 
 **링크** · [포트폴리오 상세](https://portfolio-sys13-9a4d.vercel.app/projects/aws-deploy) · [프론트엔드 저장소 (todo-list-client)](https://github.com/yss9/todo-list-client)
 
